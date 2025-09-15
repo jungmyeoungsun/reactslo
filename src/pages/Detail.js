@@ -50,7 +50,8 @@ const Detail = () => {
               color: '#E35336',
               textDecoration: 'none',
               fontSize: '15px',
-              fontWeight: 'bold'
+              fontWeight: 'bold',
+              marginBottom: '80px'
             }}
           >
             ← 홈으로 돌아가기

@@ -1,13 +1,38 @@
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
 .logo {
   padding: 15px 0;
+  margin: 0 auto;
   text-align: center;
 }
 
 .logo .logo_img {
-  height: 60px;
+  height: 70px;
+  width: auto;
   display: block;
 }
 
+.header_icons {
+  display: flex;
+}
+
+.icon_link {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-right: 30px;
+}
+
+.icon_link:hover {
+  /* color: #ff7f32; */
+  cursor: pointer;
+}
 
 .nav_wrap {
   width: 1070px;
@@ -44,7 +69,7 @@
   padding: 40px 20px;
   box-sizing: border-box;
   font-size: 14px;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 
 .footer>div {
