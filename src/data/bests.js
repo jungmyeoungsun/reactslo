@@ -1,23 +1,23 @@
 const bests = [
   {
-    id: 5,
-    title: '[5+1] 소금 버터 베이글',
-    price: '24,000원',
-    image: process.env.PUBLIC_URL + '/images/babel_06.jpg',
-  },
-
-  {
-    id: 4,
-    title: '[5+1] 감자 베이글',
-    price: '29,000원',
-    image: process.env.PUBLIC_URL + '/images/babel_05.jpg'
+    id: 0,
+    title: 'BEST3 베이글 6EA',
+    price: '30,000원',
+    image: process.env.PUBLIC_URL + '/images/1.jpg',
   },
 
   {
     id: 3,
     title: '[5+1] 카야 버터 베이글',
     price: '30,000원',
-    image: process.env.PUBLIC_URL + '/images/babel_04.jpg',
+    image: process.env.PUBLIC_URL + '/images/4.jpg',
+  },
+
+  {
+ id: 1,
+    title: 'MD pick 베이글 6EA',
+    price: '25,000원',
+    image: process.env.PUBLIC_URL + '/images/2.jpg',
   },
 
   {

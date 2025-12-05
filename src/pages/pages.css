@@ -12,6 +12,7 @@ html, body {
 
 .home_visual_main {
   width: 100%;
+  height: 500px;
   position: relative;
   overflow: hidden;
   margin-bottom: 150px;
@@ -19,6 +20,9 @@ html, body {
 
 .visual_image {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
   height: auto;
   display: block;
 }
@@ -56,6 +60,7 @@ html, body {
   color: #000;
   text-decoration: none;
   display: inline-block;
+  border-radius: 5px;
 }
 
 .home_intro_section {
@@ -93,6 +98,7 @@ html, body {
 .home_intro_image {
   width: 100%;
   display: block;
+  border-radius: 15px;
 }
 
 .home_divider {
@@ -133,7 +139,11 @@ html, body {
 
 /* reviews */
 .real_reviews {
-  padding: 50px 50px;
+  width: 100vw;
+  padding: 100px 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: #F5F0E6;
 }
 
@@ -160,6 +170,7 @@ html, body {
   width: 100%;
   height: 260px;
   object-fit: cover;
+  border-radius: 15px;
 }
 
 .review_content {
@@ -261,6 +272,7 @@ html, body {
   height: 260px;
   transition: all 0.3s ease;
   width: 100%;
+  border-radius: 15px;
 }
 
 .pro_card:hover .prod_card_img {

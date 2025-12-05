@@ -1,28 +1,28 @@
 const news = [
   {
-    id: 0,
-    title: 'BEST3 베이글 6EA',
-    price: '30,000원',
-    image: process.env.PUBLIC_URL + '/images/babel_01.jpg',
+     id: 5,
+    title: '[5+1] 소금 버터 베이글',
+    price: '24,000원',
+    image: process.env.PUBLIC_URL + '/images/6.jpg',
 
   },
   {
-    id: 1,
-    title: 'MD pick 베이글 6EA',
-    price: '25,000원',
-    image: process.env.PUBLIC_URL + '/images/babel_02.jpg',
+     id: 4,
+    title: '[5+1] 어니언 체다치즈 베이글',
+    price: '29,000원',
+    image: process.env.PUBLIC_URL + '/images/5.jpg',
   },
   {
-    id: 16,
-    title: '크림 치즈 | 7types',
-    price: '2,800원',
-    image: process.env.PUBLIC_URL + '/images/creamchees_01.jpg',
+id: 7,
+    title: '[5+1] 참깨 베이글',
+    price: '20,000원',
+    image: process.env.PUBLIC_URL + '/images/8.jpg',
   },
   {
-    id: 15,
-    title: '버라이어티소스 | 2types',
+ id: 9,
+    title: '버라이어티 소스 | 2types',
     price: '3,500원',
-    image: process.env.PUBLIC_URL + '/images/saucs_01.jpg',
+    image: process.env.PUBLIC_URL + '/images/10.jpg',
   },
 
 ];
