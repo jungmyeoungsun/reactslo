@@ -21,10 +21,10 @@ const bests = [
   },
 
   {
-    id: 16,
+    id: 10,
     title: '크림 치즈 | 7types',
     price: '2,800원',
-    image: process.env.PUBLIC_URL + '/images/creamchees_01.jpg',
+    image: process.env.PUBLIC_URL + '/images/creamchees_01.jpg'
   },
   
 

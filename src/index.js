@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename='/slobagel'>
+  <BrowserRouter basename='/reactslo'>
     <React.StrictMode>
       <App />
     </React.StrictMode>
